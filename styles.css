@@ -1,0 +1,206 @@
+ /* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f3f3f3; /* Light Chrome */
+    color: #ff6347; /* Red */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ff6347; /* Red */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ff8c00; /* Orange */
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+  }
+  
+  /* Home Section */
+  #home {
+    background-image: url('home-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+  }
+  
+  #home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f9f9f9;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  /* Faculty Section */
+#faculty {
+    background-color: #f9f9f9;
+  }
+  
+  #faculty h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .faculty-member {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .faculty-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faculty-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faculty-member p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+  }
+  
+  /* Courses Section */
+  #courses {
+    background-color: #fff;
+  }
+  
+  #courses h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #courses ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  #courses li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  #courses li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #ff6347; /* Red */
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  #contact a {
+    color: #ff8c00; /* Orange */
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #contact a:hover {
+    opacity: 0.8;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f3f3; /* Light Chrome */
+    color: #ff6347; /* Red */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul li {
+      margin-right: 0.5rem;
+    }
+  }
+  /* Style for the logo */
+.logo {
+    display: block; /* Make sure it's a block-level element */
+    margin: 0; /* Remove any default margin */
+    padding: 1rem; /* Add some padding for spacing */
+    float: left; /* Float the logo to the left */
+    max-height: 150px; /* Adjust the height as needed */
+  }
+  
+  /* Adjust header styling if necessary */
+  header {
+    background-color: #f3f3f3; /* Light Chrome */
+    padding: 1rem;
+    overflow: auto; /* Clear any floats within the header */
+  }
+  
